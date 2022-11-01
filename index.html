@@ -7,83 +7,95 @@
   <meta name="keywords" content="Дубаи, отдых, море">
   <meta name="discribtion" content="Это сайт про отдых в горооде Дубаи">
   <title>Дубаи</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Медовый месяц в Дубаи</h1>
+  <div class="container">
+    <h1>Медовый месяц в Дубаи</h1>
 
-  <img src="data:image/jpeg;base64,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" alt="Море">
+    <img src="data:image/jpeg;base64,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" alt="Море">
 
-  <p>Время путешествий в <strong>прекрасное</strong> время.</p>
-
-  <p>Теплое море, замечательная погода, пальмы, солнце и песок. Много положительный эмоций. Прогулки по жарким улицам и стильный  <em>shopping.</em></p>
-
-<h2>Списко пляжей которые мы посетили</h2>
-
-  <ul>
-    <li>JBR</li>
-    <li>Jumeirah beach</li>
-  </ul>
-
-<h2>Моллы которые мы посетили</h2>
-
-  <table>
-    <thead>
-      <tr>
-        <th>Название молла</th>
-        <th>Название остановки метро</th>
-        <th>Количество пересекаемых границ</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Mall of the Emirates</td>
-        <td>Mall of the Emirates</td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>Dubai Marina Mall</td>
-        <td>DMCC Metro Station</td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>Dubai Mall</td>
-        <td>Financial Centre Station</td>
-        <td>2</td>
-      </tr>
-      <tr>
-        <td>Dubai Outlet Mall</td>
-        <td>Метро не ходит</td>
-        <td>Только автобус</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <h2>Связаться со мной</h2>
-
-  <form>
-    <div>
-      <label for="name">Ваше имя:</label>
-      <input type="text" id="name" placeholder="Введите имя">
+    <div class="card bg-gold">
+      <p class="boldText">Время путешествий в <strong>прекрасное</strong> время.</p>
+      <p>Теплое море, замечательная погода, пальмы, солнце и песок. Много положительный эмоций. Прогулки по жарким улицам и стильный  <em>shopping.</em></p>
     </div>
 
-    <div>
-      <label for="email">Ваше email:</label>
-      <input type="email" id="email" placeholder="Введите email">
+    <div class="card bg-salmon">
+      <h2>Списко пляжей которые мы посетили</h2>
+        <ul class="list">
+          <li><a href="#">JBR</a></li>
+          <li><a href="#">Jumeirah beach</a></li>
+        </ul>
     </div>
 
-    <div>
-      <label for="message">Ваше сообщение:</label>
-      <br>
-      <textarea type="message" id="message" placeholder="Введите сообщение..." cols="20" rows="5"></textarea>
+    <div class="card bg-thistle">
+      <h2>Моллы которые мы посетили</h2>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Название молла</th>
+              <th>Название остановки метро</th>
+              <th>Количество пересекаемых границ</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Mall of the Emirates</td>
+              <td>Mall of the Emirates</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>Dubai Marina Mall</td>
+              <td>DMCC Metro Station</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>Dubai Mall</td>
+              <td>Financial Centre Station</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>Dubai Outlet Mall</td>
+              <td>Метро не ходит</td>
+              <td>Только автобус</td>
+            </tr>
+          </tbody>
+        </table>
     </div>
 
-    <button type="submit">Отправить!</button>
-  </form>
+    <div class="connect-text">
+      
+    <form class="form">
+      <h2>Связаться со мной</h2>
 
-<hr>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" placeholder="Введите имя">
+        </div>
 
-<a href="https://www.visitdubai.com/ru/" target="_blank">Сайт города</a>|
-<a href="https://www.emirates.com/ru/russian/" target="_blank">Бронирование билетов</a>
+        <div class="form-group">
+          <label for="email">Ваше email:</label>
+          <input type="email" id="email" placeholder="Введите email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="message">Ваше сообщение:</label>
+        <textarea type="message" id="message" placeholder="Введите сообщение..." cols="20" rows="5"></textarea>
+      </div>
+
+      <button type="submit" class="btn">Отправить!</button>
+    </form>
+    </div>
+    
+
+  <hr>
+
+  <a href="https://www.visitdubai.com/ru/" target="_blank">Сайт города</a> |
+  <a href="https://www.emirates.com/ru/russian/" target="_blank">Бронирование билетов</a>
+  </div>
+  
 
 </body>
 </html>
